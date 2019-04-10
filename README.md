@@ -1,6 +1,6 @@
 # yii1_covert_to_yii2
 yii1代码简单转化成yii2, 根据自己框架的特点,可实现约9成的代码自动替换实现
-
+<pre>
 模块自动转化工具
 
 /yii2sys/_cover_tools/replacefile_to_yii2.php
@@ -76,3 +76,4 @@ throw new \yii\web\HttpException ( 404, ‘The ‘ . __CLASS__ . ‘ does not ex
 动态表限制实在太多.后续有需要,需要通过ArticleX->fixTableName进行修正
 原find(where)调整成find()->where(where)->one()
 原findAll(where)调整成find()->where(where)->all()
+</pre>
